@@ -5,6 +5,14 @@ public class Contact {
 	public String firstname;
 	public String lastname;
 	
+	public Contact (String firstname, String lastname) {
+		this.firstname = firstname;
+		this.lastname = lastname;
+		}
+	
+	public Contact() {
+	}
+
 	public String getFirstname() {
 		return firstname;
 	}

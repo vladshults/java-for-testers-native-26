@@ -62,5 +62,4 @@ public class AutoItHelper extends HelpersBase {
 	public String getText(String controlID) {
 		return aux.controlGetText(winTitle, winText, controlID);
 	}
-    
 }
